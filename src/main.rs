@@ -1,5 +1,6 @@
 #![allow(unused)] //Allows for unused
-
+mod calculator;
+use calculator::calculate;
 use core::panic;
 use rand::Rng;
 use std::cmp::Ordering;
