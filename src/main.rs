@@ -1,5 +1,6 @@
 #![allow(unused)] //Allows for unused
 mod calculator;
+mod guessing_game;
 use calculator::calculate;
 use core::panic;
 use rand::Rng;
